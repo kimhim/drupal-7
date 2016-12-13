@@ -1,0 +1,33 @@
+name = Giftyweb
+description = A flexible, recolorable theme with many regions.
+screenshot = images/screenshot.png
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/jquery.countdown.css
+stylesheets[all][] = css/megamenu.css
+stylesheets[all][] = css/style.css
+
+scripts[] = js/jquery-1.11.1.min.js
+scripts[] = js/jquery.easydropdown.js
+scripts[] = js/megamenu.js
+scripts[] = js/jquery.countdown.js
+scripts[] = js/script.js
+scripts[]= js/responsiveslides.min.js
+scripts[]= js/custom.js
+
+regions[search] = Search
+regions[language] = Lanuage
+regions[login] = Login
+regions[slideshow] = Slideshow
+regions[content] = 'content'
+regions[breadcrumb] = Breadcrumb
+
+settings[shortcut_module_link] = 0
+
+; Information added by Drupal.org packaging script on 2016-10-05
+version = "7.51"
+project = "drupal"
+datestamp = "1475694174"
